@@ -1,6 +1,6 @@
 ## PyQt 클래스화 / PyQt템플릿
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel
 
 class MyApp(QWidget):
 
@@ -14,6 +14,7 @@ class MyApp(QWidget):
         #self.resize(300, 300)
         self.setGeometry(800, 400, 320, 280)
         self.show()
+    
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
