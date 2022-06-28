@@ -28,7 +28,7 @@ class MyApp(QWidget):
 
     def tblResultSelected(self):
         selected = self.tblResult.currentRow()
-        url = self.tblReuslt.item(selected, 1).text()
+        url = self.tblResult.item(selected, 1).text()
         webbrowser.open(url)
 
 
