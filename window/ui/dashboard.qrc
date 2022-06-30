@@ -1,5 +1,8 @@
 <RCC>
   <qresource prefix="/">
+    <file alias="green">green_24.png</file>
+    <file alias="alarm">alarm_48.png</file>
+    <file alias="red">red_24.png</file>
     <file alias="mist">mist_64.png</file>
     <file alias="snow">snow_64.png</file>
     <file alias="iot">iot_64.png</file>
