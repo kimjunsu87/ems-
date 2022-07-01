@@ -31,7 +31,11 @@ EMS 데이터통신 및 제어프로그램
   
  ## DAY 5 ~ 7
  - eMS 통신앱 개발
-  - MQTT
+  - MQTT Publisher / Subscriber
+  - Thread 처리
+  - PyQt Widget 화면구성
+  - 라즈베리파이, MQTT 통신
+  - 라즈베리파이 IoT 핸들링
  
  
  <br />
