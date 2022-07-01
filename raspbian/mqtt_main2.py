@@ -9,7 +9,7 @@ import adafruit_dht as dht
 import board
 
 client2 = None
-SENSOR = dht.DHT11(board.D4)
+SENSOR = dht.DHT22(board.D4)
 count = 0
 
 def publish_sensor_data():
