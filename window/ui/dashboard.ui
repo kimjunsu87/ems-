@@ -146,10 +146,11 @@ background-repeat:no-repeat</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(60, 60, 90);
+      <string notr="true">background-color: rgb(255, 211, 211);
+background-color: rgb(244, 244, 244);
 border-style: outset;
 border-width: 5px;
-border-color: rgb(0, 0, 255);
+border-color: rgb(255, 0, 0);
 border-top-left-radius: 10px;
 </string>
      </property>
@@ -277,7 +278,7 @@ border: none;
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(210, 200, 200);
+       <string notr="true">color: rgb(250, 170, 0);
 border: none;
 </string>
       </property>
@@ -327,7 +328,7 @@ border: none;</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(210, 200, 200);
+       <string notr="true">color: rgb(250, 170, 0);
 border: none;
 </string>
       </property>
@@ -354,10 +355,12 @@ border: none;
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(72, 0, 0);
+      <string notr="true">background-color: rgb(255, 255, 106);
+background-color: rgb(255, 255, 168);
+background-color: rgb(244, 244, 244);
 border-style: outset;
 border-width: 5px;
-border-color: rgb(180, 50, 0);
+border-color: rgb(255, 208, 98);
 border-top-left-radius: 10px;
 </string>
      </property>
@@ -404,7 +407,7 @@ border: none;</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
+       <string notr="true">color: rgb(255, 100, 25);
 border: none;
 </string>
       </property>
@@ -477,8 +480,8 @@ border: none;
      <widget class="QPushButton" name="btnTempAlarm">
       <property name="geometry">
        <rect>
-        <x>190</x>
-        <y>340</y>
+        <x>130</x>
+        <y>330</y>
         <width>48</width>
         <height>48</height>
        </rect>
@@ -495,9 +498,9 @@ background-repeat: no-repeat</string>
      <widget class="QLabel" name="lblTempAlarm">
       <property name="geometry">
        <rect>
-        <x>40</x>
+        <x>9</x>
         <y>300</y>
-        <width>170</width>
+        <width>231</width>
         <height>31</height>
        </rect>
       </property>
@@ -508,7 +511,7 @@ background-repeat: no-repeat</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
+       <string notr="true">color: rgb(250, 170, 0);
 border: none;
 </string>
       </property>
@@ -517,6 +520,24 @@ border: none;
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnTempStop">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>330</y>
+        <width>48</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-style: none;
+background-image: url(:/stop);
+background-repeat: no-repeat</string>
+      </property>
+      <property name="text">
+       <string/>
       </property>
      </widget>
     </widget>
@@ -535,7 +556,9 @@ border: none;
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 50, 115);
+      <string notr="true">
+background-color: rgb(227, 227, 227);
+background-color: rgb(244, 244, 244);
 border-style: outset;
 border-width: 5px;
 border-color: rgb(0, 50, 180);
@@ -585,7 +608,7 @@ border: none;</string>
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
+       <string notr="true">color: rgb(108, 191, 248);
 border: none;
 </string>
       </property>
@@ -655,6 +678,69 @@ border: none;
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
+     <widget class="QLabel" name="lblHumidAlarm">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>300</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>궁서체</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(108, 191, 248);
+border: none;
+</string>
+      </property>
+      <property name="text">
+       <string>ALARM</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnHumidStop">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>330</y>
+        <width>48</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-style: none;
+background-image: url(:/stop);
+background-repeat: no-repeat</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnHumidAlarm">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>330</y>
+        <width>48</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-style: none;
+background-image: url(:/alarm);
+background-repeat: no-repeat</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
     </widget>
     <widget class="QFrame" name="chartFrame">
      <property name="geometry">
@@ -671,10 +757,11 @@ border: none;
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(0, 50, 115);
+      <string notr="true">background-color: rgb(170, 255, 127);
+background-color: rgb(189, 242, 213);
 border-style: outset;
 border-width: 5px;
-border-color: rgb(0, 50, 180);
+border-color: rgb(197, 255, 71);
 border-top-left-radius: 10px;
 </string>
      </property>
@@ -700,7 +787,9 @@ border-top-left-radius: 10px;
        </font>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(255, 255, 255);
+       <string notr="true">color: rgb(0, 0, 0);
+color: rgb(60, 44, 62);
+color: rgb(87, 111, 114);
 border: none;
 </string>
       </property>
@@ -711,10 +800,32 @@ border: none;
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
       </property>
      </widget>
+     <widget class="QChartView" name="dataView" native="true">
+      <property name="geometry">
+       <rect>
+        <x>19</x>
+        <y>89</y>
+        <width>371</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(244, 244, 244);
+border-width: 2px;</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QWidget</extends>
+   <header>PyQt5.QtChart</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
  <resources>
   <include location="dashboard.qrc"/>
  </resources>
