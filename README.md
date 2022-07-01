@@ -40,6 +40,12 @@ EMS 데이터통신 및 제어프로그램
  
  <br />
  
+ ![라즈베리파이 통신화면구성](https://raw.githubusercontent.com/kimjunsu87/ems-/926470f352f4577df643930d0dcd97d5aa01a336/capture/dashboard.png)
+ 라즈베리파이 대쉬보드화면 구성
+ 
+ ![라즈베리파이](https://raw.githubusercontent.com/kimjunsu87/ems-/926470f352f4577df643930d0dcd97d5aa01a336/capture/raspberrypi.png)
+ 라즈베리파이 구성
+ 
  ![네이버뉴스](https://github.com/kimjunsu87/ems-/blob/main/capture/naver_news.png?raw=true)
  
  네이버뉴스 검색 앱
